@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown Clock</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body>
+    <section class="container grid grid-cols-1 md:grid-cols-2 gap-12 w-full h-screen place-items-center">
+        <div class="p-8">
+            <img src="images/ipun.jpg" alt="" class="w-full rounded">
+        </div>
+        <div class="flex flex-col gap-4 p-8">
+            <h1 class="text-3xl font-bold uppercase">Old iphone giveway</h1>
+            <h4 class="text-xl font-medium capitalize">Giveway ends on Friday, 2 April 2021 11:20pm</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere numquam quam odio, sapiente quo dolorum maxime inventore porro repudiandae ad reprehenderit saepe, esse, consectetur laboriosam. Magnam doloribus et qui. Unde!</p>
+            <div class="grid gap-6 grid-cols-2 md:grid-cols-4">
+                <div class="bg-gray-800 text-white px-8 py-4 flex flex-col items-center justify-center">
+                    <p class="text-2xl" id="daysElement">10</p>
+                    <p class="text-2xl">Days</p>
+                </div>
+
+                <div class="bg-gray-800 text-white px-8 py-4 flex flex-col items-center justify-center">
+                    <p class="text-2xl" id="hoursElement">08</p>
+                    <p class="text-2xl">Hours</p>
+                </div>
+
+                <div class="bg-gray-800 text-white px-8 py-4 flex flex-col items-center justify-center">
+                    <p class="text-2xl" id="minElement">36</p>
+                    <p class="text-2xl">Mins</p>
+                </div>
+
+                <div class="bg-gray-800 text-white px-8 py-4 flex flex-col items-center justify-center">
+                    <p class="text-2xl" id="secElement">49</p>
+                    <p class="text-2xl">Sec</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== Script File ====  -->
+    <script src="script/app.js"></script>
+</body>
+</html>
